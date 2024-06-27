@@ -1,0 +1,1 @@
+//lấy kích thước = n.size()

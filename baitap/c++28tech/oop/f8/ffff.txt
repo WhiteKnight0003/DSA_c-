@@ -1,0 +1,16 @@
+5
+ti cnc
+A1
+9.2
+ti cnaaaaaaa
+A2
+7
+ti ssnc
+A3
+3.33
+ssssssss
+A4
+4.6
+eeeeee
+A2
+5.5

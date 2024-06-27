@@ -1,0 +1,4 @@
+tong diem cua truong A1 la : 3.33
+tong diem cua truong A2 la : 4.60
+tong diem cua truong A3 la : 9.20
+tong diem cua truong A4 la : 12.50

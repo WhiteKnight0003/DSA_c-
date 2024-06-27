@@ -1,0 +1,10 @@
+1.Đơn đồ thị vô hướng
+- Đơn đồ thị vô hướng G = <V,E> , gồm V là tập các đỉnh , E là tập các cặp không có thứ tự gồm 2 phần tử khác nhau của V gọi là các cạnh
+
+     A - D - F
+  /  |   |   | 
+ B - C - E   G  - đơn đồ thị vô hướng gồm 7 đỉnh và 8 cạnh
+
+ - vô hướng - là cạnh giữa 2 đỉnh k có hướng đi
+ - đơn : giữa 2 đỉnh có nhiều nhất 1 cạnh
+ - các cặp cạnh k có thứ tự
