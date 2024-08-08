@@ -1,0 +1,5 @@
+- đồ thị vô hướng được gọi là liên thông nếu luôn tìm được đường đi giữa 2 đỉnh bất kì của đồ thị 
+
+- thành phần liên thông : 
++ 1 đỉnh cô lập cũng có thể là 1 tplt
++ trong trg hợp đồ thị vô hướng k liên thông nó sẽ phân rã thành nhiều các tplt khác nhau

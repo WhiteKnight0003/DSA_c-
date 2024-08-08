@@ -1,0 +1,38 @@
+# mở đầu về đồ thị
+- Đơn đồ thị vô hướng G = <V, E> - với V là tập các đỉnh , E là tập các cặp k có thứ tự gồm 2 phần tử khác nhau của V gọi là cạnh - giữa các đỉnh chỉ tồn tại duy nhất 1 cạnh 
+
+- Đa đồ thị khác đơn đồ thị ở chỗ - giữa các đỉnh có thể có nhiều hơn 1 cạnh 
+
+- cạnh của đồ thị vô hướng gọi là cạnh 
+- cạnh của đồ thị có hướng gọi là cung 
+
+- 1 tập đỉnh k có cạnh nối vẫn gọi là đồ thị 
+
+
+#đỉnh kề , cạnh liên thuộc
+- đỉnh kề :  đỉnh U,v được gọi là 2 đỉnh kề nếu tồn tại e = (u,v) là cạnh của đồ thị
+- cạnh liên thuộc : NẾu cạnh e = (u,v) là cạnh của đồ thị thì cạnh e gọi là cạnh liên thuộc với u , v 
+
+
+#bậc của đỉnh trên graph vô hướng
+- bậc của đỉnh u trên graph vô hướng là số cạnh liên thuộc với đỉnh u -> kí hiệu : deg(u)
+- đỉnh có bậc 0 được gọi là đỉnh cô lập 
+- đỉnh có bâc 1 được gọi là đỉnh treo 
+- Định lý : Đồ thị G = <v,E> là đồ thị vô hướng có m cạnh , khi đó tổng bậc của các đỉnh trên đồ thị = 2 lần số cạnh 
+
+
+# bán bậc vào , bán bậc ra trên graph có hướng
+- Bán bậc ra của đỉnh U trên graph có hướng là số cung của đồ thị đi ra khỏi đỉnh u - kí hiệu deg+(u)
+- Bán bậc vào của đỉnh U trên graph có hướng là số cung của đồ thị đi vào đỉnh u , ký hiệu deg-(u)
+- trên graph có hướng , tổng bán bậc vào = tổng bán bậc ra = số cạnh
+
+
+- đường đi : 2 đỉnh liên tiếp có cạnh nối , cạnh đó gọi là đường đi 
+
+
+
+# chu trình 
+- là đường đi gồm các cạnh phân biệt có đỉnh đầu trùng đỉnh cuối - có thể lặp lại đỉnh
+- chu trình đơn : k lặp lại đỉnh - trừ đầu cuối trùng nhau
+
+

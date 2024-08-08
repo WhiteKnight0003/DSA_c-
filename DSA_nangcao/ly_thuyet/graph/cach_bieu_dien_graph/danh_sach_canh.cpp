@@ -1,0 +1,1 @@
+//  dùng class bao gồm Start, end, weight để lưu thông tin
