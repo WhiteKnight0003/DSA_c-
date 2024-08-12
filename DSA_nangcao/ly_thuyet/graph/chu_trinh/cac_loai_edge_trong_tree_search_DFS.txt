@@ -1,0 +1,19 @@
+- Tree Edge : là cạnh mà theo đó từ 1 đinh ta đến thăm 1 đỉnh mới
+- Back edge : Cạnh ngược là cạnh đi từ con cháu (descendant) đến tổ tiên (ancestor)
+- Forward Edge : cạnh tới cạnh đi từ tổ tiên đến hậu duệ
+- Cross Edge : Cạnh vòng là cạnh nối 2 đỉnh k có quan hệ họ hàng 
+
+
+ví dụ trong đồ thị vô hướng
+7 6
+1 2 
+1 3
+2 4 
+2 5
+3 6 
+3 7
+
+1 -> 4 : back edge
+1 -> 2 : tree edge
+3 -> 7 : Forward edge
+5 -> 7 : Cross edge 

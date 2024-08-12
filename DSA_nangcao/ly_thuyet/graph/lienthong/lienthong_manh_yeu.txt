@@ -1,0 +1,8 @@
+- liên thông mạnh - giữa 2 đỉnh luôn có đường đi 
+- liên thông yếu - là k liên thông mạnh và đồ thị vô hướng tương ứng của nó liên thông
+
+
+-> tức muốn check liên thông yếu thì chỉ cần check đồ thị vô hướng của nó có liên thông không
+
+-> còn liên thông mạnh thì bạn buộc phải check để từ 2 đỉnh u, v bất kì luôn có đường đi
+- cho dfs(1-> v) sau đó check visited xem visited của mỗi lần dfs(i) đã true hết ch - 1 lần false là bỏ luôn

@@ -1,0 +1,4 @@
+- chỉ cần nó sắp xếp đúng  theo thứ tự đã cho với các đỉnh trong đồ thị có hướng là được
+- có thể có nhiều kết quả khác nhau
+
+- vấn đề : nếu đồ thị có hướng có chu trình -> k có thứ tự topo 

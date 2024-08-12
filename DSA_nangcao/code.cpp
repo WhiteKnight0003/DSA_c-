@@ -16,5 +16,7 @@ using namespace std;
 
 const int MOD = (int) 1e9+7;
 const int INF = (int) 1e9+1;
+
 ios_base::sync_with_stdio(0);
-	cin.tie(0);
+cin.tie(0);
+cout.tie(0);

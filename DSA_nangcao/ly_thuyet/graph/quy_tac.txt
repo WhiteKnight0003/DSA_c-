@@ -1,0 +1,5 @@
+- adj[1001] : mảng lưu đỉnh kề
+- visited[1001] : mảng check xem đỉnh đã được thăm 
+- V,E : số đỉnh , số cạnh
+- indegree[1001] : lưu bán bậc vào 
+- int parent[1001]  : lưu đỉnh cha của 1 đỉnh

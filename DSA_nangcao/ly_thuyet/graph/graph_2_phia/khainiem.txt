@@ -1,0 +1,73 @@
+- các đồ thị k có cạnh cũng có thể là đồ thị 2 phía 
+
+
+
+- khái niệm
++ còn được gọi là đồ thị lưỡng phân, là một loại đồ thị đặc biệt có cấu trúc và tính chất riêng biệt. 
+1. Cấu trúc:
+- Tập đỉnh của đồ thị được chia thành hai tập hợp con không giao nhau, thường được gọi là X và Y.
+- Mỗi cạnh trong đồ thị luôn nối một đỉnh từ tập X với một đỉnh từ tập Y.
+- Không có cạnh nào nối hai đỉnh trong cùng một tập.
+
+2. Biểu diễn:
+- Thường được biểu diễn bằng cách vẽ hai cột đỉnh song song.
+- Một cột chứa các đỉnh thuộc tập X, cột còn lại chứa các đỉnh thuộc tập Y.
+- Các cạnh được vẽ nối giữa các đỉnh của hai cột.
+
+3. Ký hiệu:
+- Thường được ký hiệu là G = (X, Y, E), trong đó:
+- X và Y là hai tập đỉnh không giao nhau
+- E là tập các cạnh, mỗi cạnh nối một đỉnh từ X với một đỉnh từ Y
+
+4. Tính chất:
+- Không có chu trình độ dài lẻ trong đồ thị hai phía.
+- Tất cả các chu trình (nếu có) đều có độ dài chẵn.
+
+5. Ví dụ đơn giản:
+- Tập X: {1, 2, 3}
+- Tập Y: {A, B, C}
+- Các cạnh: {(1,A), (1,B), (2,B), (3,C)}
+- Trong ví dụ này, đỉnh 1 kết nối với A và B, đỉnh 2 kết nối với B, và đỉnh 3 kết nối với C.
+
+
+
+
+
+- tác dụng
+1 . Mô hình hóa mối quan hệ: Đồ thị hai phía rất hữu ích trong việc biểu diễn mối quan hệ 
+giữa hai tập hợp đối tượng khác nhau. 
+Ví dụ:
+  + Sinh viên và khóa học
+  + Nhân viên và dự án
+  + Người dùng và sản phẩm
+
+
+2 . Bài toán ghép cặp: Đồ thị hai phía thường được sử dụng để giải quyết các bài toán ghép cặp, 
+như:
+  + Ghép cặp việc làm (người lao động với công việc)
+  + Ghép cặp trong hôn nhân
+  + Phân công nhiệm vụ
+
+
+3. Tối ưu hóa nguồn lực: 
+- Trong quản lý dự án và phân bổ tài nguyên, đồ thị hai phía giúp tối ưu hóa việc phân công nhiệm vụ và 
+sử dụng nguồn lực.
+
+4 . Phân tích mạng xã hội: 
+- Đồ thị hai phía có thể được sử dụng để phân tích mối quan hệ trong mạng xã hội, 
+ví dụ như mối quan hệ giữa người dùng và nhóm họ tham gia.
+
+5 . Hệ thống gợi ý: 
+- Trong các hệ thống gợi ý, đồ thị hai phía có thể được sử dụng để mô hình hóa mối quan hệ giữa 
+người dùng và sản phẩm, giúp đưa ra các đề xuất phù hợp.
+
+6 . Xử lý ngôn ngữ tự nhiên: 
+- Trong lĩnh vực NLP, đồ thị hai phía có thể được sử dụng để biểu diễn mối quan hệ giữa từ và văn bản, 
+giúp trong các tác vụ như phân loại văn bản hoặc trích xuất thông tin.
+
+7 . Lưu trữ và truy xuất dữ liệu: 
+- Đồ thị hai phía có thể được sử dụng để tổ chức và truy xuất dữ liệu hiệu quả trong một số cấu trúc dữ liệu.
+
+8 . Giải quyết các bài toán tổ hợp: 
+Nhiều bài toán tổ hợp có thể được mô hình hóa và giải quyết bằng cách sử d
+ụng đồ thị hai phía.
