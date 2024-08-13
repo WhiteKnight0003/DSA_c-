@@ -1,0 +1,5 @@
+- gộp 2 tập hợp và đổi đại diện
+- nếu cùng cập hợp r thì bỏ qua
+- đỉnh đại diện có cha là chính nó
+
+- có thể check đc chu trình

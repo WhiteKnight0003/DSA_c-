@@ -19,19 +19,19 @@ void inp(){
 	memset(visited, false, sizeof(visited));
 }
 
-void dfs(int u){ // u và cha của nó 
+void dfs(int u, int par){ // u và cha của nó 
 	visited[u]= true;
+	high[u] = high[par]+1;
 	for(auto x: adj[u]){
-		high[x] = high[u]+1;
 		if(!visited[x])
-			dfs(x);
+			dfs(x,u);
 	}
 }
 
 int main(){
 	inp();
-	high[1]=0;
-	dfs(1);
+	high[0]=-1;
+	dfs(1,0);
 	for(int i=1;i<=m;i++)
 		cout<<i<<" "<<high[i]<<endl;
 }
